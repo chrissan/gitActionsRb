@@ -17,9 +17,9 @@ jobs:
       with:
         distribution: 'temurin' #see 'supported distributions' for availible options'
         java-version: '17'
-    #- run: java HelloWorldApp.java ejemplo ejecuacion
-    - name: build with maven
-      run: 
-        mvnw clean install
-        echo "build with maven"
+    - run: java HelloWorldApp.java ejemplo ejecuacion
+   # - name: build with maven
+    #  run: 
+     #   mvnw clean install
+      #  echo "build with maven"
         
