@@ -41,4 +41,4 @@ jobs:
     - name: build with maven
       run:
           mvn clean test package
-          echo "build with maven"
+          #echo "build with maven"
